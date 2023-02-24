@@ -1,5 +1,5 @@
 {
-  "name": "angular-tree-component",
+  "name": "@lstheart/angular-tree-component",
   "version": "5.2.1",
   "description": "A simple yet powerful tree component for Angular2",
   "author": "Adam Klein <adam@500tech.com>",
@@ -47,7 +47,6 @@
     "example:cli:build": "npm run build && cd example/cli && npm install && npm install ../../ && cp src/index.build.html src/index.html && ./node_modules/.bin/ng build --aot && cp src/index.dev.html src/index.html && mkdir -p 500tech/angular2-tree-component/master/example/cli/ && cp -rf dist 500tech/angular2-tree-component/master/example/cli/",
     "test": "protractor protractor.conf.js",
     "test:setup": "concurrently --kill-others \"npm run selenium\" \"npm run example:cli\"",
-    "prepublishOnly": "cd example/cli && npm install && cd ../../ && npm run build && npm run example:cli:build",
     "e2e:tsc": "../node_modules/.bin/tsc --p e2e/tsconfig.json"
   },
   "files": [
