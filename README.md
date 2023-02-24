@@ -5,8 +5,6 @@
 
 ## A full featured tree component for Angular (2 and above, including 4)
 
-> just rebuild for lodash upgrade,thanks for Adam Klein <adam@500tech.com>
-
 We've built so many projects that required a tree component, and could never find a library that supported all features.
 And building your own tree component is not an easy task.
 
